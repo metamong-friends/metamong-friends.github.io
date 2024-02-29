@@ -46,64 +46,50 @@
     margin: 0 auto;
 }
 
-.HomePage-HeaderBackground {
-    position: absolute;
-    width: 100vw;
+.HomePage-Header {
     height: 70px;
-    z-index: -1;
     background-color: #34C759;
 }
 
-.HomePage-Header {
-    width: 1000px;
-    height: 180px;
-}
-
 .HomePage-HeaderTitle {
+    width: 1000px;
     height: 70px;
-    display: flex;
-    align-items: stretch;
-    gap: 15px;
+    box-sizing: border-box;
+    padding-top: 10px;
 }
 
 .HomePage-Logo {
-    width: 40px;
-    height: 40px;
+    width: 257px;
+    height: 50px;
 }
 
-.HomePage-LogoText {
-    font-size: 40px;
-}
-
-.HomePage-HeaderSubTitle {
-    height: 30px;
-    padding-left: 60px;
-    font-size: 30px;
-}
 
 .HomePage-Body {
+    height: 800px;
+    background-color: #D9BBFF;
+}
+
+.HomePage-BodyContent {
     width: 1000px;
-    height: 1000px;
-    box-sizing: border-box;
-    padding-left: 60px;
+    height: 800px;
+}
+
+.HomePage-BodyTitle {
+    height: 30px;
+    padding-left: 10px;
+    font-size: 30px;
 }
 
 .HomePage-BodyImage {
     width: 800px;
+    margin: 40px 0;
 }
 
-.HomePage-BodyContent {
-    padding-top: 50px;
+.HomePage-Footer {
+    height: 70px;
 }
 
-.HomePage-BodyBackground {
-    position: absolute;
-    width: 100vw;
-    height: 900px;
-    z-index: -2;
-    background-color: #D9BBFF;
-}
-
-.HomePage-Footer{
+.HomePage-FooterContent {
     width: 1000px;
+    height: 70px;
 }

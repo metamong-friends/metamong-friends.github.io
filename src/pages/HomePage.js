@@ -1,21 +1,15 @@
 import '../App.css';
 import {Component} from "react";
-import logo from './logo.png'
-import background from './MetamongBackground.png';
+import fullLogo from '../assets/fullLogo.png'
+import background from '../assets/MetamongBackground.png';
 
 class Header extends Component {
     render() {
         return (
             <>
-                <div className="HorizontalCenter HomePage-Header">
-                    <div className=" HomePage-HeaderTitle">
-                        <div className="VerticalCenter">
-                            <img src={logo} className="HomePage-Logo" alt="logo"/>
-                        </div>
-                        <div className="VerticalCenter HomePage-LogoText"> Welcome Metamong !</div>
-                    </div>
-                    <div className=" HomePage-HeaderSubTitle">An online collaborative space where you want to stay
-                        together.
+                <div className="HomePage-Header">
+                    <div className="HorizontalCenter HomePage-HeaderTitle">
+                        <img src={fullLogo} className="HomePage-Logo" alt="logo"/>
                     </div>
                 </div>
 
@@ -27,13 +21,18 @@ class Header extends Component {
 class Body extends Component {
     render() {
         return (
-            <div className="HorizontalCenter HomePage-Body">
-                <img src={background} className="HomePage-BodyImage" alt="metamong image"/>
-                <div className="HomePage-BodyContent">
+            <div className="HomePage-Body">
+                <div className="HorizontalCenter HomePage-BodyContent">
+                    <div className="HomePage-BodyTitle">
+                        An online collaborative space where you want to stay together.
+                    </div>
+                    <img src={background} className="HomePage-BodyImage" alt="metamong image"/>
                     <h1> Click Download </h1>
                     <a href="https://metamong-launcher.s3.ap-northeast-2.amazonaws.com/Windows/Metamong.zip"
                        download="Metamong.zip"> windows </a>
-                    <p> mac</p>
+                    <br/>
+                    <a href="https://metamong-launcher.s3.ap-northeast-2.amazonaws.com/Mac/Metamong.zip"
+                       download="Metamong.zip"> mac </a>
                 </div>
             </div>
         );
@@ -43,9 +42,11 @@ class Body extends Component {
 class Footer extends Component {
     render() {
         return (
-            <div className="HorizontalCenter HomePage-Footer">
-                <div>made by</div>
-                <div>@Team Metamong @SamsungSDS</div>
+            <div className="HomePage-Footer">
+                <div className="HorizontalCenter HomePage-FooterContent">
+                    <div>made by</div>
+                    <div>@Team Metamong @SamsungSDS</div>
+                </div>
             </div>
         );
     }
@@ -54,9 +55,6 @@ class Footer extends Component {
 const HomePage = () => {
     return (
         <>
-            <div className="HomePage-HeaderBackground"/>
-            <div className="HomePage-BodyBackground"/>
-
             <Header/>
             <Body/>
             <Footer/>
