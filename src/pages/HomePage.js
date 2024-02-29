@@ -1,6 +1,6 @@
 import '../App.css';
 import {Component} from "react";
-import fullLogo from '../assets/fullLogo.png'
+import fullLogo from '../assets/fullLogoWhite.png'
 import background from '../assets/MetamongBackground.png';
 
 class Header extends Component {

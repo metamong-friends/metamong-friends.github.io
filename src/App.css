@@ -48,7 +48,7 @@
 
 .HomePage-Header {
     height: 70px;
-    background-color: #34C759;
+    background-color: #AF52DE;
 }
 
 .HomePage-HeaderTitle {
@@ -61,6 +61,7 @@
 .HomePage-Logo {
     width: 257px;
     height: 50px;
+    color: white;
 }
 
 
