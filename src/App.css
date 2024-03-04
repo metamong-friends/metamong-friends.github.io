@@ -48,14 +48,15 @@
 
 .HomePage-Header {
     height: 70px;
-    background-color: #AF52DE;
+    background-color: #56397B;
 }
 
 .HomePage-HeaderTitle {
-    width: 1000px;
+    width: 800px;
     height: 70px;
     box-sizing: border-box;
-    padding-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .HomePage-Logo {
@@ -67,23 +68,38 @@
 
 .HomePage-Body {
     height: 800px;
-    background-color: #D9BBFF;
+    padding: 32px 20px 80px 20px;
 }
 
 .HomePage-BodyContent {
     width: 1000px;
     height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .HomePage-BodyTitle {
     height: 30px;
     padding-left: 10px;
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .HomePage-BodyImage {
     width: 800px;
     margin: 40px 0;
+    border-radius: 20px;
+}
+
+.HomePage-Body-Download {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HomePage-Body-Download > hr {
+    width: 100%;
 }
 
 .HomePage-Footer {
@@ -93,4 +109,35 @@
 .HomePage-FooterContent {
     width: 1000px;
     height: 70px;
+}
+
+.Button-Group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 650px;
+}
+
+.Button-Group > a {
+    width: 300px;
+    height: 52px;
+    color: white;
+    background-color: #56397B;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button-Group > a:hover {
+    background-color: #64468a;
+}
+
+.Button-Group > a:active {
+    background-color: #77599e;
 }
