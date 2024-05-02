@@ -33,8 +33,8 @@ class Body extends Component {
                     <div className="Button-Group">
                       <a href="https://metamong-launcher.s3.ap-northeast-2.amazonaws.com/Windows/metamongInstaller.exe"
                          download="metamongInstaller.exe"> Windows </a>
-                      <a href="https://metamong-launcher.s3.ap-northeast-2.amazonaws.com/Mac/Metamong.zip"
-                         download="Metamong.zip"> Mac </a>
+                      {/*<a href="https://metamong-launcher.s3.ap-northeast-2.amazonaws.com/Mac/Metamong.zip"*/}
+                      {/*   download="Metamong.zip"> Mac </a>*/}
                     </div>
                     <br />
                     <hr />
