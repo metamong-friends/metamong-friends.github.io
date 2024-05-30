@@ -33,8 +33,12 @@ class Body extends Component {
                     <div className="Button-Group">
                       <a href="https://metamong-launcher.s3.ap-northeast-2.amazonaws.com/Windows/MetamongInstaller.exe"
                          download="MetamongInstaller.exe"> Windows </a>
-                      {/*<a href="https://metamong-launcher.s3.ap-northeast-2.amazonaws.com/Mac/Metamong.zip"*/}
-                      {/*   download="Metamong.zip"> Mac </a>*/}
+                      <a href="https://metamong-launcher.s3.ap-northeast-2.amazonaws.com/Mac/Metamong.zip"
+                         download="Metamong.zip"> Mac(Experimental) </a>
+                    </div>
+                    <div>
+                        <span>Mac Version is Experimental. Automatic update is <span style={{color:"red"}}>not supported.</span><br/>
+                            You should execute 'sudo spctl --master-disable' in Terminal before running the application on Mac devices.</span>
                     </div>
                     <br />
                     <hr />
@@ -51,7 +55,7 @@ class Footer extends Component {
             <div className="HomePage-Footer">
                 <div className="HorizontalCenter HomePage-FooterContent">
                     <div>made by</div>
-                    <div>@Team Metamong @SamsungSDS</div>
+                    <h4>@Team Metamong @SamsungSDS</h4>
                 </div>
             </div>
         );
