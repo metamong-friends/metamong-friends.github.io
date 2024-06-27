@@ -67,13 +67,11 @@
 
 
 .HomePage-Body {
-    height: 800px;
-    padding: 32px 20px 80px 20px;
+    padding: 32px 20px 60px 20px;
 }
 
 .HomePage-BodyContent {
     width: 1000px;
-    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,4 +139,12 @@
 
 .Button-Group > a:active {
     background-color: #77599e;
+}
+
+.Message-Usage {
+    margin-top: 20px;
+}
+
+.Message-Usage .Font-Small {
+    font-size: 14px;
 }

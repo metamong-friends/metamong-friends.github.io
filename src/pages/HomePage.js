@@ -36,11 +36,13 @@ class Body extends Component {
                       <a href="https://metamong-launcher.s3.ap-northeast-2.amazonaws.com/Mac/Metamong.zip"
                          download="Metamong.zip"> Mac(Experimental) </a>
                     </div>
-                    <div>
-                        <span>Mac Version is Experimental. Automatic update is <span style={{color:"red"}}>not supported.</span><br/>
-                            You should execute 'sudo spctl --master-disable' in Terminal before running the application on Mac devices.</span>
-                    </div>
-                    <br />
+                      <div className="Message-Usage">
+                          <span><b>Mac</b> Version is Experimental. Automatic update is <span style={{color: "red"}}>not supported.</span><br/><br/>
+                              <u>Before running the application on Mac devices,</u><br/>
+                             <b className="Font-Small">* (For Apple silicon Mac)</b> You should execute <i>'sudo spctl --master-disable'</i> in Terminal.<br/>
+                             <b className="Font-Small">* (For Intel chipset Mac)</b> Open Terminal and navigate to the directory where the app is installed, run the following command: <i>xattr -rc *.app</i> </span><br/>
+                      </div>
+                      <br />
                     <hr />
                   </div>
                 </div>
