@@ -39,8 +39,8 @@ class Body extends Component {
                       <div className="Message-Usage">
                           <span><b>Mac</b> Version is Experimental. Automatic update is <span style={{color: "red"}}>not supported.</span><br/><br/>
                               <u>Before running the application on Mac devices,</u><br/>
-                             <b className="Font-Small">* (For Apple silicon Mac)</b> You should execute <i>'sudo spctl --master-disable'</i> in Terminal.<br/>
-                             <b className="Font-Small">* (For Intel chipset Mac)</b> Open Terminal and navigate to the directory where the app is installed, run the following command: <i>xattr -rc *.app</i> </span><br/>
+                             <b className="Font-Small">* (For Apple silicon Mac)</b>Before you download, You should execute <i>'sudo spctl --master-disable'</i> in Terminal.<br/>
+                             <b className="Font-Small">* (For Intel chipset Mac)</b>After you download and unzip, Open Terminal and navigate to the directory where the metamong.app is located, run the following command: <i>xattr -rc *.app</i> </span><br/>
                       </div>
                       <br />
                     <hr />
