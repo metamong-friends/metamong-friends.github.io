@@ -7,7 +7,7 @@ import PlayPage from "./pages/PlayPage";
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <>
                 <Header/>
                 <Routes>
