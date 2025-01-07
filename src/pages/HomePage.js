@@ -1,21 +1,14 @@
 import '../App.css';
 import {Component} from "react";
-import fullLogo from '../assets/fullLogoWhite.png'
 import background from '../assets/MetamongBackground.png';
 
-class Header extends Component {
-    render() {
-        return (
-            <>
-                <div className="HomePage-Header">
-                    <div className="HorizontalCenter HomePage-HeaderTitle">
-                        <img src={fullLogo} className="HomePage-Logo" alt="logo"/>
-                    </div>
-                </div>
-
-            </>
-        );
-    }
+const HomePage = () => {
+    return (
+        <>
+            <Body/>
+            <Footer/>
+        </>
+    );
 }
 
 class Body extends Component {
@@ -63,17 +56,6 @@ class Footer extends Component {
         );
     }
 }
-
-const HomePage = () => {
-    return (
-        <>
-            <Header/>
-            <Body/>
-            <Footer/>
-        </>
-    );
-}
-
 
 export default HomePage;
 
