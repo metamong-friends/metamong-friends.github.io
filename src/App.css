@@ -148,3 +148,9 @@
 .Message-Usage .Font-Small {
     font-size: 14px;
 }
+
+.PlayPage-Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
