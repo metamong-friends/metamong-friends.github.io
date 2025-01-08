@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import {Component} from "react";
 import fullLogo from "./assets/fullLogoWhite.png";
 import HomePage from "./pages/HomePage";
@@ -7,7 +7,7 @@ import PlayPage from "./pages/PlayPage";
 
 function App() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
             <>
                 <Header/>
                 <Routes>
@@ -16,7 +16,7 @@ function App() {
                     <Route path="*" element={<ErrorPage/>}/>
                 </Routes>
             </>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 

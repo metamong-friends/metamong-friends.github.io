@@ -1,6 +1,7 @@
 import '../App.css';
 import {Component} from "react";
 import background from '../assets/MetamongBackground.png';
+import {Link} from "react-router-dom";
 
 const HomePage = () => {
     return (
@@ -51,6 +52,7 @@ class Footer extends Component {
                 <div className="HorizontalCenter HomePage-FooterContent">
                     <div>made by</div>
                     <h4>@Team Metamong @SamsungSDS</h4>
+                    <Link to="/play">play</Link>
                 </div>
             </div>
         );

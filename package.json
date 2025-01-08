@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://metamong-friends.github.io/",
+  "homepage": "https://metamong-friends.github.io/#",
   "eslintConfig": {
     "extends": [
       "react-app",
