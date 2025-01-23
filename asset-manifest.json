@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.5774fa5d.css",
-    "main.js": "/static/js/main.a0cafd60.js",
+    "main.js": "/static/js/main.cf210cef.js",
     "static/js/453.05429f87.chunk.js": "/static/js/453.05429f87.chunk.js",
     "static/media/MetamongBackground.png": "/static/media/MetamongBackground.d8ec8adbcff65982d816.png",
+    "static/media/GoodBye5.png": "/static/media/GoodBye5.558d66a06b7bd0c589e2.png",
+    "static/media/GoodBye2.png": "/static/media/GoodBye2.2dde44cb6992ff29144a.png",
+    "static/media/GoodBye4.png": "/static/media/GoodBye4.7f6180f1fcc412bcb000.png",
+    "static/media/GoodBye1.png": "/static/media/GoodBye1.c71e7915a3c619f315f5.png",
+    "static/media/GoodBye3.png": "/static/media/GoodBye3.b0386009cb3fede44ea0.png",
     "static/media/fullLogoWhite.png": "/static/media/fullLogoWhite.60ba0c2990166b54733a.png",
     "index.html": "/index.html",
     "main.5774fa5d.css.map": "/static/css/main.5774fa5d.css.map",
-    "main.a0cafd60.js.map": "/static/js/main.a0cafd60.js.map",
+    "main.cf210cef.js.map": "/static/js/main.cf210cef.js.map",
     "453.05429f87.chunk.js.map": "/static/js/453.05429f87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5774fa5d.css",
-    "static/js/main.a0cafd60.js"
+    "static/js/main.cf210cef.js"
   ]
 }
