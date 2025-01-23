@@ -4,19 +4,22 @@ import {Component} from "react";
 import fullLogo from "./assets/fullLogoWhite.png";
 import HomePage from "./pages/HomePage";
 import PlayPage from "./pages/PlayPage";
+import GoodByePage from "./pages/GoodByePage";
 
 function App() {
     return (
-        <HashRouter>
-            <>
-                <Header/>
-                <Routes>
-                    <Route path="/" element={<HomePage/>}/>
-                    <Route path="/play" element={<PlayPage/>}/>
-                    <Route path="*" element={<ErrorPage/>}/>
-                </Routes>
-            </>
-        </HashRouter>
+        <GoodByePage/>
+        /*복구하고 싶을 때 살리기*/
+        // <HashRouter>
+        //     <>
+        //         <Header/>
+        //         <Routes>
+        //             <Route path="/" element={<HomePage/>}/>
+        //             <Route path="/play" element={<PlayPage/>}/>
+        //             <Route path="*" element={<ErrorPage/>}/>
+        //         </Routes>
+        //     </>
+        // </HashRouter>
     );
 }
 
