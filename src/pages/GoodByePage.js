@@ -28,7 +28,7 @@ class Body extends Component {
             <div className="HomePage-Body">
                 <div className="HorizontalCenter HomePage-BodyContent">
                     <div className="HomePage-Body HorizontalCenter VerticalCenter" style={{"text-align": "center"}}>
-                        Thank you for visit us again.<br/><br/>
+                        Thank you for visiting us again.<br/><br/>
                         Our service is currently unavailable.<br/><br/><br/>
                         We hope to see you again someday.
                     </div>
