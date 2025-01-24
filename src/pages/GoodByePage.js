@@ -25,21 +25,36 @@ class Header extends Component {
 class Body extends Component {
     render() {
         return (
-            <div className="HomePage-Body">
-                <div className="HorizontalCenter HomePage-BodyContent">
-                    <div className="HomePage-Body HorizontalCenter VerticalCenter" style={{"text-align": "center"}}>
-                        Thank you for visiting us again.<br/><br/>
-                        Our service is currently unavailable.<br/><br/><br/>
-                        We hope to see you again someday.
-                    </div>
-                    <div>
-                        <img src={goodByeImage1} style={{"width": "78px", "height":"128px"}} alt="logo"/>
-                        <img src={goodByeImage2} style={{"width": "78px", "height":"128px"}} alt="logo"/>
-                        <img src={goodByeImage3} style={{"width": "78px", "height":"128px"}} alt="logo"/>
-                        <img src={goodByeImage4} style={{"width": "78px", "height":"128px"}} alt="logo"/>
-                        <img src={goodByeImage5} style={{"width": "78px", "height":"128px"}} alt="logo"/>
-                    </div>
+            <div style={{"height": "100%", "display": "flex", "flexDirection" : "column", "justifyContent": "space-between", "alignItems": "center"}}>
+                <div className="VerticalCenter" style={{"height" : "400px", "text-align": "center", "font-size":"21px", fontWeight: "bold"}}>
+                    Thank you for visiting us again.<br/><br/>
+                    Our service is currently unavailable.<br/><br/><br/>
+                    We hope to see you again someday.
                 </div>
+                <div  style={{"height" : "200px"}}>
+                    <img src={goodByeImage1} style={{"width": "78px", "height": "128px"}} alt="logo"/>
+                    <img src={goodByeImage2} style={{"width": "78px", "height": "128px"}} alt="logo"/>
+                    <img src={goodByeImage3} style={{"width": "78px", "height": "128px"}} alt="logo"/>
+                    <img src={goodByeImage4} style={{"width": "78px", "height": "128px"}} alt="logo"/>
+                    <img src={goodByeImage5} style={{"width": "78px", "height": "128px"}} alt="logo"/>
+                </div>
+
+
+                {/*
+                 =================================================================================================
+                 */}
+                {/*<div className="Button-Group">*/}
+                {/*    <a href="https://metamong-app1.s3.ap-northeast-2.amazonaws.com/Windows/.DS_Store"*/}
+                {/*       download="MetamongInstaller.exe"> Windows </a>*/}
+                {/*    <a href="https://metamong-launcher1.s3.ap-northeast-2.amazonaws.com/Windows/MetamongInstaller.exe"*/}
+                {/*       download="Metamong.zip"> Mac(Experimental) </a>*/}
+                {/*</div>*/}
+
+                {/*
+                 =================================================================================================
+                 */}
+
+
             </div>
         );
     }
@@ -48,9 +63,11 @@ class Body extends Component {
 class Footer extends Component {
     render() {
         return (
-            <div className="HomePage-Footer">
-                <div className="HorizontalCenter HomePage-FooterContent">
-                    <h4>@Team Metamong @SamsungSDS</h4>
+            <div className="HomePage-Header">
+                <div className="HorizontalCenter VerticalCenter HomePage-FooterContent">
+                    <h4 style = {{"color": "white"}}>
+                        @Team Metamong @SamsungSDS
+                    </h4>
                 </div>
             </div>
         );
